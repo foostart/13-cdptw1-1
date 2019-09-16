@@ -10,6 +10,7 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="container">
         <div class="row header-top-line">
             <div class="col-md-12">
+              
                 <div class="pull-left">
                     <div id="rb_email_widget-3" class="widget ">
                         <a  href="#">
