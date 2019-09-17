@@ -1,0 +1,175 @@
+.type-1229 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.type-1229 .line {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
+.type-1229 .portfolio .description .case_info_detail dt,
+.type-1229 .portfolio .description .case_info_detail dd {
+  color: #555;
+}
+.type-1229 .portfolio .meta .btn_meta {
+  margin: 5px 0;
+  background-color: #fff;
+  color: #999;
+  text-transform: uppercase;
+  border: solid 2px #e8e8e8;
+}
+.type-1229 .portfolio .meta .btn_meta:hover {
+  background-color: #e8e8e8;
+  color: #555;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+.type-1229 .portfolio .meta .social_icons {
+  width: 100%;
+  margin: 15px 0;
+}
+.type-1229 .portfolio .meta .social_icons a:hover {
+  text-decoration: none;
+}
+.type-1229 .portfolio .meta .social_icons .icon {
+  margin-right: 5px;
+  padding: 10px 5px;
+  color: #555;
+  border: 1px solid #fff;
+  overflow: hidden;
+}
+.type-1229 .portfolio .meta .social_icons .icon i:first-child {
+  color: #555;
+  position: relative;
+  left: 8px;
+  top: 0;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+.type-1229 .portfolio .meta .social_icons .icon i:last-child {
+  color: #fff;
+  position: relative;
+  left: -6px;
+  top: 15px;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.type-1229 .portfolio .meta .social_icons .icon:hover i:first-child {
+  top: -15px;
+  opacity: 0;
+}
+.type-1229 .portfolio .meta .social_icons .icon:hover i:last-child {
+  top: 0px;
+  opacity: 1;
+}
+.type-1229 .portfolio .meta .social_icons .icon_facebook i:first-child {
+  left: 10px;
+}
+.type-1229 .portfolio .meta .social_icons .icon_facebook i:last-child {
+  left: -4px;
+}
+.type-1229 .portfolio .meta .social_icons .icon_mail i:first-child {
+  left: 7px;
+}
+.type-1229 .portfolio .meta .social_icons .icon_mail i:last-child {
+  left: -7px;
+}
+.type-1229 .portfolio .meta .social_icons .icon_facebook:hover {
+  background-color: #3B5998;
+}
+.type-1229 .portfolio .meta .social_icons .icon_gplus:hover {
+  background-color: #DD4B39;
+}
+.type-1229 .portfolio .meta .social_icons .icon_mail:hover {
+  background-color: #6567A5;
+}
+.type-1229 .post_navigation a:hover {
+  text-decoration: none;
+}
+.type-1229 .post_navigation .col_post {
+  padding: 5px 15px;
+}
+.type-1229 .post_navigation .col_post .post {
+  background-color: #e8e8e8;
+  position: relative;
+}
+.type-1229 .post_navigation .col_post .post a i {
+  font-size: 12px;
+  color: #999;
+}
+.type-1229 .post_navigation .col_post .post .arrow_left {
+  position: absolute;
+  top: 16px;
+  left: 10px;
+}
+.type-1229 .post_navigation .col_post .post .arrow_right {
+  position: absolute;
+  top: 16px;
+  right: 10px;
+}
+.type-1229 .post_navigation .col_post .post .arrow_left:hover i,
+.type-1229 .post_navigation .col_post .post .arrow_right:hover i {
+  color: #555;
+}
+.type-1229 .post_navigation .col_post .post .content_post {
+  padding: 10px 30px;
+}
+.type-1229 .post_navigation .col_post .post .content_post .post_title h5 {
+  margin-bottom: 0;
+  color: #555;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.type-1229 .post_navigation .col_post .post .content_post .post_title:hover h5 {
+  color: #fdd000;
+}
+.type-1229 .post_navigation .col_post .post .content_post span a {
+  color: #999;
+}
+.type-1229 .post_navigation .col_post .post .content_post span a:hover {
+  color: #333;
+}
+.type-1229 .post_navigation .col_post .right_post {
+  text-align: right;
+}
+.type-1229 .divider_center {
+  position: relative;
+  color: #e5e5e5;
+  margin: 35px 15px;
+}
+.type-1229 .divider_center .box_fa {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  width: 30px;
+  position: relative;
+  height: 30px;
+  background-color: #fff;
+}
+.type-1229 .divider_center:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  top: 12px;
+  left: 0;
+  height: 0;
+  border-top: 1px solid #EEE;
+}
+@media screen and (max-width: 768px) and (min-width: 480px) {
+  .type-1229 .portfolio .description .case_info_detail .col1 {
+    width: 30%;
+    float: left;
+  }
+  .type-1229 .portfolio .description .case_info_detail .col2 {
+    width: 70%;
+    float: left;
+  }
+}
+@media screen and (max-width: 480px) {
+  .type-1229 .post_navigation .col_post .post .content_post .post_title h5 {
+    font-size: 13px;
+  }
+  .type-1229 .post_navigation .col_post .post .content_post span a {
+    font-size: 12px;
+  }
+}
