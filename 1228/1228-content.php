@@ -1,10 +1,7 @@
 <?php
-include '../config.php';
-
-$url_host = 'http://' . $_SERVER['HTTP_HOST'];
-$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), $sala);
+$url_host = $_SERVER['HTTP_HOST'];
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
 $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-
 preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
@@ -18,97 +15,97 @@ $url_path = str_replace('\\', '/', $url_path);
         <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1170px;height:480px;overflow:hidden;">
             <!--/IMG-->
             <div data-p="200.00">
-                <img data-u="image" src="<?php echo $url_path ?>/images/7.jpg" />
+                <img data-u="image" src="images/7.jpg" />
                 <div data-u="thumb">
-                    <img data-u="thumb" src="<?php echo $url_path ?>/images/7.jpg" />
+                    <img data-u="thumb" src="images/7.jpg" />
                 </div>
             </div>
             <!--/IMG-->
             <!--/IMG-->
             <div data-p="200.00">
-                <img data-u="image" src="<?php echo $url_path ?>/images/bg-header-6.jpg" />
+                <img data-u="image" src="images/bg-header-6.jpg" />
                 <div data-u="thumb">
-                    <img data-u="thumb" src="<?php echo $url_path ?>/images/bg-header-6.jpg" />
+                    <img data-u="thumb" src="images/bg-header-6.jpg" />
                 </div>
             </div>
             <!--/IMG-->
             <!--/IMG-->
             <div data-p="200.00">
-                <img data-u="image" src="<?php echo $url_path ?>/images/content-rooms-1.jpg" />
+                <img data-u="image" src="images/content-rooms-1.jpg" />
                 <div data-u="thumb">
-                    <img data-u="thumb" src="<?php echo $url_path ?>/images/content-rooms-1.jpg" />
+                    <img data-u="thumb" src="images/content-rooms-1.jpg" />
                 </div>
             </div>
             <!--/IMG-->
             <!--/IMG-->
             <div data-p="200.00">
-                <img data-u="image" src="<?php echo $url_path ?>/images/content-rooms-3.jpg" />
+                <img data-u="image" src="images/content-rooms-3.jpg" />
                 <div data-u="thumb">
-                    <img data-u="thumb" src="<?php echo $url_path ?>/images/content-rooms-3.jpg" />
+                    <img data-u="thumb" src="images/content-rooms-3.jpg" />
                 </div>
             </div>
             <!--/IMG-->
             <!--/IMG-->
             <div data-p="170.00">
-                <img data-u="image" src="<?php echo $url_path ?>/images/content-rooms.jpg" />
+                <img data-u="image" src="images/content-rooms.jpg" />
                 <div data-u="thumb">
-                    <img data-u="thumb" src="<?php echo $url_path ?>/images/content-rooms.jpg" />
+                    <img data-u="thumb" src="images/content-rooms.jpg" />
                 </div>
             </div>
             <!--/IMG-->
             <!--/IMG-->
             <div data-p="170.00">
-                <img data-u="image" src="<?php echo $url_path ?>/images/5.jpg" />
+                <img data-u="image" src="images/5.jpg" />
                 <div data-u="thumb">
-                    <img data-u="thumb" src="<?php echo $url_path ?>/images/5.jpg" />
+                    <img data-u="thumb" src="images/5.jpg" />
                 </div>
             </div>
             <!--/IMG-->
             <!--/IMG-->
             <div data-p="170.00">
-                <img data-u="image" src="<?php echo $url_path ?>/images/6.jpg" />
+                <img data-u="image" src="images/6.jpg" />
                 <div data-u="thumb">
-                    <img data-u="thumb" src="<?php echo $url_path ?>/images/6.jpg" />
+                    <img data-u="thumb" src="images/6.jpg" />
                 </div>
             </div>
             <!--/IMG-->
             <!--/IMG-->
             <div data-p="170.00">
-                <img data-u="image" src="<?php echo $url_path ?>/images/1.jpg" />
+                <img data-u="image" src="images/1.jpg" />
                 <div data-u="thumb">
-                    <img data-u="thumb" src="<?php echo $url_path ?>/images/1.jpg" />
+                    <img data-u="thumb" src="images/1.jpg" />
                 </div>
             </div>
             <!--/IMG-->
             <!--/IMG-->
             <div data-p="170.00">
-                <img data-u="image" src="<?php echo $url_path ?>/images/2.jpg" />
+                <img data-u="image" src="images/2.jpg" />
                 <div data-u="thumb">
-                    <img data-u="thumb" src="<?php echo $url_path ?>/images/2.jpg" />
+                    <img data-u="thumb" src="images/2.jpg" />
                 </div>
             </div>
             <!--/IMG-->
             <!--/IMG-->
             <div data-p="170.00">
-                <img data-u="image" src="<?php echo $url_path ?>/images/3.jpg" />
+                <img data-u="image" src="images/3.jpg" />
                 <div data-u="thumb">
-                    <img data-u="thumb" src="<?php echo $url_path ?>/images/3.jpg" />
+                    <img data-u="thumb" src="images/3.jpg" />
                 </div>
             </div>
             <!--/IMG-->
             <!--/IMG-->
             <div data-p="170.00">
-                <img data-u="image" src="<?php echo $url_path ?>/images/4.jpg" />
+                <img data-u="image" src="images/4.jpg" />
                 <div data-u="thumb">
-                    <img data-u="thumb" src="<?php echo $url_path ?>/images/4.jpg" />
+                    <img data-u="thumb" src="images/4.jpg" />
                 </div>
             </div>
             <!--/IMG-->
             <!--/IMG-->
             <div data-p="170.00">
-                <img data-u="image" src="<?php echo $url_path ?>/images/5.jpg" />
+                <img data-u="image" src="images/5.jpg" />
                 <div data-u="thumb">
-                    <img data-u="thumb" src="<?php echo $url_path ?>/images/5.jpg" />
+                    <img data-u="thumb" src="images/5.jpg" />
                 </div>
             </div>
             <!--/IMG-->

@@ -1,10 +1,7 @@
 <?php
-include '../config.php';
-
-$url_host = 'http://' . $_SERVER['HTTP_HOST'];
-$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), $sala);
+$url_host = $_SERVER['HTTP_HOST'];
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
 $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-
 preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
@@ -12,7 +9,7 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="type-1227">
     <!--HEADER-->
     <div class="header">
-        <img class="image-s" src="<?php echo $url_path ?>/images/bg-header-6.jpg">
+        <img class="image-s" src="images/bg-header-6.jpg">
         <div class="text-center-image">
             <div class="text-1">
                 <span>KT-ROYAL</span>

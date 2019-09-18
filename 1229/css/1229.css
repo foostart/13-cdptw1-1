@@ -11,12 +11,19 @@
 .type-1229 .portfolio .description .case_info_detail dd {
   color: #555;
 }
+.type-1229 .portfolio .title-style {
+  font-weight: 600;
+  color: #555;
+}
 .type-1229 .portfolio .meta .btn_meta {
-  margin: 5px 0;
+  margin: 5px 5px;
   background-color: #fff;
-  color: #999;
+  color: #4c4c4c;
   text-transform: uppercase;
   border: solid 2px #e8e8e8;
+  font-weight: 600;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .type-1229 .portfolio .meta .btn_meta:hover {
   background-color: #e8e8e8;
@@ -33,8 +40,8 @@
 .type-1229 .portfolio .meta .social_icons .icon {
   margin-right: 5px;
   padding: 10px 5px;
+  border-radius: 20px;
   color: #555;
-  border: 1px solid #fff;
   overflow: hidden;
 }
 .type-1229 .portfolio .meta .social_icons .icon i:first-child {
@@ -115,12 +122,12 @@
 }
 .type-1229 .post_navigation .col_post .post .content_post .post_title h5 {
   margin-bottom: 0;
-  color: #555;
+  color: black;
   font-weight: 600;
   text-transform: uppercase;
 }
 .type-1229 .post_navigation .col_post .post .content_post .post_title:hover h5 {
-  color: #fdd000;
+  color: #7f8281;
 }
 .type-1229 .post_navigation .col_post .post .content_post span a {
   color: #999;
@@ -171,5 +178,13 @@
   }
   .type-1229 .post_navigation .col_post .post .content_post span a {
     font-size: 12px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .type-1229 .description {
+    padding-left: 40px;
+  }
+  .type-1229 .meta {
+    text-align: center;
   }
 }

@@ -1,10 +1,7 @@
 <?php
-include '../config.php';
-
-$url_host = 'http://' . $_SERVER['HTTP_HOST'];
-$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), $sala);
+$url_host = $_SERVER['HTTP_HOST'];
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
 $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-
 preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
@@ -17,49 +14,49 @@ $url_path = str_replace('\\', '/', $url_path);
             <!--DESCRIPTION-->
             <div class="col-md-8 description">
                 <!--CASE-->
-                <dl class="case_info_detail">
+           
                     <!--ROW-->
                     <div class="row">
-                        <dt class="col1 col-md-3 col-sm-3">Nature of space</dt>
-                        <dd class="col2 col-md-9 col-sm-9">Residential space</dd>
+                        <p class="col1 col-md-2 col-sm-2 title-style">空間性質</p>
+                        <p class="col2 col-md-10 col-sm-10 ">往宅空間</p>
                     </div>
                     <!--/ROW-->
                     <hr>
                     <!--ROW-->
                     <div class="row">
-                        <dt class="col1 col-md-3 col-sm-3">Location</dt>
-                        <dd class="col2 col-md-9 col-sm-9">New forest district</dd>
+                        <p class="col1 col-md-2 col-sm-2 title-style">座落位置</p>
+                        <p class="col2 col-md-10 col-sm-10">新北市樹林區</p>
                     </div>
                     <!--/ROW-->
                     <hr>
                     <!--ROW-->
                     <div class="row">
-                        <dt class="col1 col-md-3 col-sm-3">Building area</dt>
-                        <dd class="col2 col-md-9 col-sm-9">36 pings</dd>
+                        <p class="col1 col-md-2 col-sm-2 title-style">建物面積</p>
+                        <p class="col2 col-md-10 col-sm-10">36坪</p>
                     </div>
                     <!--/ROW-->
                     <hr>
                     <!--ROW-->
                     <div class="row">
-                        <dt class="col1 col-md-3 col-sm-3">Indoor pattern</dt>
-                        <dd class="col2 col-md-9 col-sm-9">Living room, dining room, study, master bedroom, guest room</dd>
+                        <p class="col1 col-md-2 col-sm-2 title-style">室內格局</p>
+                        <p class="col2 col-md-10 col-sm-10">客廳、 餐廳、 書房、 主臥室、 客房</p>
                     </div>
                     <!--/ROW-->
                     <hr>
                     <!--ROW-->
                     <div class="row">
-                        <dt class="col1 col-md-3 col-sm-3">Main material</dt>
-                        <dd class="col2 col-md-9 col-sm-9">Solid wood peel, US resistant board, painted iron, painted glass, sandblasted glass, matte quartz brick</dd>
+                        <p class="col1 col-md-2 col-sm-2 title-style">主要材料</p>
+                        <p class="col2 col-md-10 col-sm-10">每木皮、 美耐板  美耐板、 烤漆玻璃、 噴砂玻璃、 霧面石英磚</p>
                     </div>
                     <!--/ROW-->
-                </dl>
+              
                 <!--/CASE-->
             </div>
             <!--/DESCRIPTION-->
             <!--META-->
             <div class="col-md-4 meta">
-                <button type="button" class="btn btn_meta">Shallow mashups</button>
-                <button type="button" class="btn btn_meta">Wooden</button>
+                <button type="button" class="btn btn_meta">深 淺 混 搭 系</button>
+                <button type="button" class="btn btn_meta">木商</button>
                 <!--ICONS-->
                 <div class="social_icons">
                     <a class="icon icon_facebook" href="#">
@@ -81,8 +78,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="post left_post">
                     <a class="arrow_left" href="#"><i class="fa fa-arrow-left"></i></a>
                     <div class="content_post">
-                        <a class="post_title" href="#"><h5>Carefully crafted, magnificent</h5></a>
-                        <span><a href="#">Taichung City</a> , <a href="#">Central District</a> , <a href="#">70 pyeong</a> , <a href="#">Daping</a> , <a href="#">light-colored</a></span>
+                        <a class="post_title" href="#"><h5>精雕細琢 、 堂而皇之</h5></a>
+                        <span><a href="#">台中市</a> , <a href="#">中區</a> , <a href="#">70坪</a> , <a href="#">大坪飲</a> , <a href="#">淺色系    </a></span>
                     </div>
                 </div>
                 <!--/POST-LEFT-->
@@ -94,8 +91,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="post right_post">
                     <a class="arrow_right" href="#"><i class="fa fa-arrow-right"></i></a>
                     <div class="content_post">
-                        <a class="post_title" href="#"><h5>Life is picturesque and contentment</h5></a>
-                        <span><a href="#">Taipei City</a> , <a href="#">Songshan District</a> , <a href="#">38 pyeong</a> , <a href="#">light-colored</a> , <a href="#">marble</a></span>
+                        <a class="post_title" href="#"><h5>生活如花 、 恰然日德</h5></a>
+                          <span><a href="#">台中市</a> , <a href="#">中區</a> , <a href="#">38坪</a> , <a href="#">大坪飲</a> , <a href="#">淺色系    </a></span>
                     </div>
                 </div>
                 <!--/POST-RIGHT-->
