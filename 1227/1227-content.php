@@ -1,21 +1,21 @@
 <?php
-$url_host = $_SERVER['HTTP_HOST'];
-$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-preg_match_all($pattern_uri, __DIR__, $matches);
-$url_path = $url_host . $matches[1][0];
-$url_path = str_replace('\\', '/', $url_path);
+    $url_host = $_SERVER['HTTP_HOST'];
+    $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+    $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+    preg_match_all($pattern_uri, __DIR__, $matches);
+    $url_path = $url_host . $matches[1][0];
+    $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-1227">
     <!--HEADER-->
     <div class="header">
-        <img class="image-s" src="images/bg-header-6.jpg">
+        <img class="image-s" src="images/bg-header-6.jpg" alt="banner">
         <div class="text-center-image">
             <div class="text-1">
-                <span>KT-ROYAL</span>
+                <span>SERVICE</span>
             </div>
             <hr class="hr-size-color">
-            <div class="text-2">Cung cấp dịch vụ</div>
+            <div class="text-2">客户服务</div>
         </div>
     </div>
     <!--/HEADER-->
@@ -24,8 +24,8 @@ $url_path = str_replace('\\', '/', $url_path);
         <!--PD-HEARDER-->
         <div class="pading-header">
             <div class="text-3">
-                <span>Sứ mạng</span>
-                <span class="color">KT-ROYAL</span>
+                <span>客服團隊</span>
+                <span class="color">服務核心</span>
             </div>
             <hr class="hr-size-color2">
             <div class="text-5">
@@ -41,17 +41,17 @@ $url_path = str_replace('\\', '/', $url_path);
                 <!--TEXT-->
                 <div class="center-text">
                     <div class="pading-top">
-                        <i class="border glyphicon glyphicon-stats fa-3x " aria-hidden="true"></i>
+                        <i class="border glyphicon glyphicon-user fa-3x " aria-hidden="true"></i>
                     </div>
                     <div class="text-6">
-                        <span>Tổng thầu xây dựng</span>
+                        <span>詹美珠</span>
                     </div>
                     <div class="hr-size-color3"></div>
                     <div class="text-7">
-                        <span>The standard chunk of Lorem Ipsum </span>
+                        <span>TEL: 02-2501-3278 ext.209 </span>
                     </div>
                     <div class="text-7">
-                        <span>chunk of Lorem Ipsum </span>
+                        <span>FAX: 02-2501-3387 </span>
                     </div>
                 </div>
                 <!--/TEXT-->
@@ -62,17 +62,17 @@ $url_path = str_replace('\\', '/', $url_path);
                 <!--TEXT-->
                 <div class="center-text">
                     <div class="pading-top">
-                        <i class="border glyphicon glyphicon-equalizer fa-3x " aria-hidden="true"></i>
+                        <i class="border glyphicon glyphicon-user fa-3x " aria-hidden="true"></i>
                     </div>
                     <div class="text-6">
-                        <span>Thiết kế và thi công</span>
+                        <span>廖添發</span>
                     </div>
                     <div class="hr-size-color3"></div>
                     <div class="text-7">
-                        <span>The standard chunk of Lorem Ipsum </span>
+                        <span>TEL: 02-2501-3278 ext.207 </span>
                     </div>
                     <div class="text-7">
-                        <span>chunk of Lorem Ipsum </span>
+                        <span>FAX: 02-2501-3387  </span>
                     </div>
                 </div>
                 <!--/TEXT-->
@@ -83,91 +83,28 @@ $url_path = str_replace('\\', '/', $url_path);
                 <!--TEXT-->
                 <div class="center-text">
                     <div class="pading-top">
-                        <i class="border glyphicon glyphicon-tower fa-3x " aria-hidden="true"></i>
+                        <i class="border glyphicon glyphicon-user fa-3x " aria-hidden="true"></i>
                     </div>
                     <div class="text-6">
-                        <span>Nội thất</span>
+                        <span>卓映辰</span>
                     </div>
                     <div class="hr-size-color3"></div>
                     <div class="text-7">
-                        <span>The standard chunk of Lorem Ipsum </span>
+                        <span>TEL: 02-2501-3278 ext.202 </span>
                     </div>
                     <div class="text-7">
-                        <span>chunk of Lorem Ipsum </span>
+                        <span>FAX: 02-2501-3387  </span>
                     </div>
                 </div>
                 <!--/TEXT-->
             </div>
-            <!--/COL-->
-
-            <!--COL-->
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <!--TEXT-->
-                <div class="center-text">
-                    <div class="pading-top">
-                        <i class="border glyphicon glyphicon-tasks fa-3x " aria-hidden="true"></i>
-                    </div>
-                    <div class="text-6">
-                        <span>Hạ tầng</span>
-                    </div>
-                    <div class="hr-size-color3"></div>
-                    <div class="text-7">
-                        <span>The standard chunk of Lorem Ipsum </span>
-                    </div>
-                    <div class="text-7">
-                        <span>chunk of Lorem Ipsum </span>
-                    </div>
-                </div>
-                <!--/TEXT-->
-            </div>
-            <!--/COL-->
-
-            <!--COL-->
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <!--TEXT-->
-                <div class="center-text">
-                    <div class="pading-top">
-                        <i class="border glyphicon glyphicon-flash fa-3x " aria-hidden="true"></i>
-                    </div>
-                    <div class="text-6">
-                        <span>Cơ điện</span>
-                    </div>
-                    <div class="hr-size-color3"></div>
-                    <div class="text-7">
-                        <span>The standard chunk of Lorem Ipsum </span>
-                    </div>
-                    <div class="text-7">
-                        <span>chunk of Lorem Ipsum </span>
-                    </div>
-                </div>
-                <!--/TEXT-->
-            </div>
-            <!--/COL-->
-
-            <!--COL-->
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <!--TEXT-->
-                <div class="center-text">
-                    <div class="pading-top">
-                        <i class="border glyphicon glyphicon-fullscreen fa-3x " aria-hidden="true"></i>
-                    </div>
-                    <div class="text-6">
-                        <span>Dịch vụ khác</span>
-                    </div>
-                    <div class="hr-size-color3"></div>
-                    <div class="text-7">
-                        <span>The standard chunk of Lorem Ipsum </span>
-                    </div>
-                    <div class="text-7">
-                        <span>chunk of Lorem Ipsum </span>
-                    </div>
-                </div>
-                <!--/TEXT-->
-            </div>
-            <!--/COL-->
-
         </div>
         <!--/ROW-->
     </div>
+    <!-- footer -->
+     <div class="container boder-footer">
+         <span class="contact-ft"> 免付营諮詢電話 </span> 
+         <span class="footer-contact-sdt">0809-080-158</span>
+     </div>
     <!--/CONTAINER-->
 </div>
