@@ -15,97 +15,97 @@ $url_path = str_replace('\\', '/', $url_path);
         <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1170px;height:480px;overflow:hidden;">
             <!--/IMG-->
             <div data-p="200.00">
-                <img data-u="image" src="images/7.jpg" />
+                <img data-u="image" src="images/7.jpg" alt="mg" />
                 <div data-u="thumb">
-                    <img data-u="thumb" src="images/7.jpg" />
+                    <img data-u="thumb" src="images/7.jpg"  alt="mg"/>
                 </div>
             </div>
             <!--/IMG-->
             <!--/IMG-->
             <div data-p="200.00">
-                <img data-u="image" src="images/bg-header-6.jpg" />
+                <img data-u="image" src="images/bg-header-6.jpg" alt="mg" />
                 <div data-u="thumb">
-                    <img data-u="thumb" src="images/bg-header-6.jpg" />
+                    <img data-u="thumb" src="images/bg-header-6.jpg" alt="mg" />
                 </div>
             </div>
             <!--/IMG-->
             <!--/IMG-->
             <div data-p="200.00">
-                <img data-u="image" src="images/content-rooms-1.jpg" />
+                <img data-u="image" src="images/content-rooms-1.jpg" alt="mg"/>
                 <div data-u="thumb">
-                    <img data-u="thumb" src="images/content-rooms-1.jpg" />
+                    <img data-u="thumb" src="images/content-rooms-1.jpg" alt="mg" />
                 </div>
             </div>
             <!--/IMG-->
             <!--/IMG-->
             <div data-p="200.00">
-                <img data-u="image" src="images/content-rooms-3.jpg" />
+                <img data-u="image" src="images/content-rooms-3.jpg" alt="mg" />
                 <div data-u="thumb">
-                    <img data-u="thumb" src="images/content-rooms-3.jpg" />
+                    <img data-u="thumb" src="images/content-rooms-3.jpg" alt="mg"/>
                 </div>
             </div>
             <!--/IMG-->
             <!--/IMG-->
             <div data-p="170.00">
-                <img data-u="image" src="images/content-rooms.jpg" />
+                <img data-u="image" src="images/content-rooms.jpg" alt="mg"/>
                 <div data-u="thumb">
-                    <img data-u="thumb" src="images/content-rooms.jpg" />
+                    <img data-u="thumb" src="images/content-rooms.jpg" alt="mg"/>
                 </div>
             </div>
             <!--/IMG-->
             <!--/IMG-->
             <div data-p="170.00">
-                <img data-u="image" src="images/5.jpg" />
+                <img data-u="image" src="images/5.jpg" alt="mg"/>
                 <div data-u="thumb">
-                    <img data-u="thumb" src="images/5.jpg" />
+                    <img data-u="thumb" src="images/5.jpg" alt="mg"/>
                 </div>
             </div>
             <!--/IMG-->
             <!--/IMG-->
             <div data-p="170.00">
-                <img data-u="image" src="images/6.jpg" />
+                <img data-u="image" src="images/6.jpg" alt="mg"/>
                 <div data-u="thumb">
-                    <img data-u="thumb" src="images/6.jpg" />
+                    <img data-u="thumb" src="images/6.jpg" alt="mg"/>
                 </div>
             </div>
             <!--/IMG-->
             <!--/IMG-->
             <div data-p="170.00">
-                <img data-u="image" src="images/1.jpg" />
+                <img data-u="image" src="images/1.jpg"  alt="mg" />
                 <div data-u="thumb">
-                    <img data-u="thumb" src="images/1.jpg" />
+                    <img data-u="thumb" src="images/1.jpg" alt="mg"/>
                 </div>
             </div>
             <!--/IMG-->
             <!--/IMG-->
             <div data-p="170.00">
-                <img data-u="image" src="images/2.jpg" />
+                <img data-u="image" src="images/2.jpg" alt="mg"/>
                 <div data-u="thumb">
-                    <img data-u="thumb" src="images/2.jpg" />
+                    <img data-u="thumb" src="images/2.jpg" alt="mg"/>
                 </div>
             </div>
             <!--/IMG-->
             <!--/IMG-->
             <div data-p="170.00">
-                <img data-u="image" src="images/3.jpg" />
+                <img data-u="image" src="images/3.jpg" alt="mg"/>
                 <div data-u="thumb">
-                    <img data-u="thumb" src="images/3.jpg" />
+                    <img data-u="thumb" src="images/3.jpg" alt="mg"/>
                 </div>
             </div>
             <!--/IMG-->
             <!--/IMG-->
             <div data-p="170.00">
-                <img data-u="image" src="images/4.jpg" />
+                <img data-u="image" src="images/4.jpg" alt="mg"/>
                 <div data-u="thumb">
-                    <img data-u="thumb" src="images/4.jpg" />
+                    <img data-u="thumb" src="images/4.jpg" alt="mg"/>
                 </div>
             </div>
             <!--/IMG-->
             <!--/IMG-->
             <div data-p="170.00">
-                <img data-u="image" src="images/5.jpg" />
+                <img data-u="image" src="images/5.jpg" alt="mg"/>
                 <div data-u="thumb">
-                    <img data-u="thumb" src="images/5.jpg" />
+                    <img data-u="thumb" src="images/5.jpg" alt="mg"/>
                 </div>
             </div>
             <!--/IMG-->

@@ -23,8 +23,8 @@ $url_path = str_replace('\\', '/', $url_path);
     <title>1228</title>  
     <link href="css/font-awesome.min.css" rel="stylesheet">       
     <link href="css/1228.css" rel="stylesheet" type="text/css" />
-    <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-    <script src="js/1228.js" type="text/javascript"></script>  
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/1228.js"></script>  
 </head>
 
 <body>

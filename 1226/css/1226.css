@@ -36,35 +36,36 @@
   font-size: 20px;
   padding-bottom: 40px;
 }
-@media (max-width: 1200px) {
+@media screen and (max-width: 480px) {
   .type-1226 .info {
-    text-align: center;
+    float: left;
   }
+  .type-1226 .bd-bn {
+    border-left: 1px solid #ccc;
+  }
+  .type-1226 h2 {
+    font-size: 1.2em;
+    padding-left: 20px;
+  }
+  .type-1226 h4 {
+    font-size: 1.2em !important;
+    padding-left: 20px;
+  }
+  .type-1226 h5 {
+    font-size: 1.2em;
+    padding-left: 20px;
+  }
+  .type-1226 .lh {
+    margin-left: 159px;
+    color: red;
+  }
+  .type-1226 a {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 1024px) {
   .type-1226 .info h2 {
     left: auto;
     padding-right: 52px;
-  }
-  .type-1226 .info h1 {
-    display: inline-block;
-    padding-top: 15px;
-  }
-}
-@media (max-width: 480px) {
-  .type-1226 .info {
-    text-align: center;
-  }
-  .type-1226 .info h1 {
-    font-size: 20px;
-  }
-  .type-1226 .info h2 {
-    font-size: 13px;
-    left: auto;
-    padding-right: 35px;
-  }
-  .type-1226 .info h4 {
-    font-size: 13px;
-  }
-  .type-1226 .info h5 {
-    font-size: 13px;
   }
 }
