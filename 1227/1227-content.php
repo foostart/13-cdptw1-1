@@ -29,7 +29,7 @@
             </div>
             <hr class="hr-size-color2">
             <div class="text-5">
-                <span>Công trình của bạn là niềm hãnh diện cho đội ngủ KT-ROYAL chúng tôi</span>
+                <span>隨時聯繫並請聽建議, 及時排除問題的能力。 成為客戶與成舍的溝通橋樑, 成為客戶與成舍的溝通橋樑</span>
             </div>
         </div>
         <!--/PD-HEARDER-->
