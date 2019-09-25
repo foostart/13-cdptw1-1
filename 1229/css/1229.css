@@ -188,3 +188,8 @@
     text-align: center;
   }
 }
+@media screen and (max-width: 600px) {
+  .type-1229 .description {
+    padding-left: 40px;
+  }
+}
