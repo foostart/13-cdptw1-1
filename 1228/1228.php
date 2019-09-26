@@ -26,7 +26,7 @@ $url_path = str_replace('\\', '/', $url_path);
     <script src="<?php echo $url_path ?>/js/swiper.js"></script>
     <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet">  
     <link href="<?php echo $url_path ?>/css/swiper.css" rel="stylesheet">  
-    <script type="text/javascript" src="swiper/js/swiper.js"></script>
+    <script src="swiper/js/swiper.js"></script>
 </head>
 <body>
     <?php include $dir_block.'/1228-content.php'; ?>  
