@@ -78,28 +78,19 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <li class="active"><a href="#">Home 1 – Agency</a></li>
                                     <li><a href="#">Home 2 – Complete</a></li>
                                     <li><a href="#">Home 3 – Typography</a></li>
-                                    <li><a href="#">Home 4 – Blog</a></li>
-                                    <li><a href="">Home 5 – No Slider</a></li>
-                                    <li><a href="">Home 6 – Shop</a></li>
-                                    <li><a href="">Home 7 – Funding</a></li>
+                                    
                                 </ul>
                             </li>
                             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio</a>
                                 <ul class="dropdown-menu">
                                     <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle1" data-toggle="dropdown">Regular</a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="">4 columns</a></li>
-                                            <li><a href="">3 columns</a></li>
-                                            <li><a href="">3 columns w/ sidebar</a> </li>
-                                            <li><a href="">2 columns</a></li>
+                                            
                                         </ul>
                                     </li>
                                     <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle1" data-toggle="dropdown">AJAX</a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="">4 columns</a></li>
-                                            <li><a href="">3 columns</a></li>
-                                            <li><a href="">3 columns w/ sidebar</a> </li>
-                                            <li><a href="">2 columns</a></li>
+                                            
                                         </ul>
                                     </li>
                                     <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle1" data-toggle="dropdown">Paginated</a>
@@ -108,38 +99,22 @@ $url_path = str_replace('\\', '/', $url_path);
                             </li>
                             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="">Modern Blog</a></li>
-                                    <li><a href="">Classic Blog</a></li>
+                                    
                                 </ul>
                             </li>
                             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="">About Us </a></li>
-                                    <li><a href="">Our Services 1</a></li>
-                                    <li><a href="">Our Skills 1</a></li>
-                                    <li><a href="">Our Team</a></li>
-                                    <li><a href="">Pricing Tables</a></li>
-                                    <li><a href="">Testimonials </a></li>
-                                    <li><a href="">Passworded Page </a></li>
-                                    <li><a href="">Archives</a></li>
-                                    <li><a href="">Sitemap </a></li>
-                                    <li><a href="">404 Page</a></li>
+                                   
                                 </ul>
                             </li>
                             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Features</a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="">All Shortcodes</a></li>
-                                    <li><a href="">Shop</a></li>
-                                    <li><a href="">Funding – Project 1</a></li>
-                                    <li><a href="">Funding – Project 2</a></li>
-                                    <li><a href="">Features List</a></li>
+                                   
                                 </ul>
                             </li>
                             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact</a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="">Contact Us by Email</a></li>
-                                    <li><a href="">Contact Us by Phone</a></li>
-                                    <li><a href="">Contact Us 3</a></li>
+                                    
                                 </ul>
                             </li>
                         </ul>

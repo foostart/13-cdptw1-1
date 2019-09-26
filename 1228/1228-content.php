@@ -6,135 +6,60 @@ preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
+
 <div class="type-1228">
-    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1170px;height:480px;overflow:hidden;visibility:hidden;">
-        <!-- Loading Screen -->
-        <div class="jssorl-009-spin">
-        </div>
-        <!--SLIDES-->
-        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1170px;height:480px;overflow:hidden;">
-            <!--/IMG-->
-            <div data-p="200.00">
-                <img data-u="image" src="images/7.jpg" alt="mg" />
-                <div data-u="thumb">
-                    <img data-u="thumb" src="images/7.jpg"  alt="mg"/>
-                </div>
-            </div>
-            <!--/IMG-->
-            <!--/IMG-->
-            <div data-p="200.00">
-                <img data-u="image" src="images/bg-header-6.jpg" alt="mg" />
-                <div data-u="thumb">
-                    <img data-u="thumb" src="images/bg-header-6.jpg" alt="mg" />
-                </div>
-            </div>
-            <!--/IMG-->
-            <!--/IMG-->
-            <div data-p="200.00">
-                <img data-u="image" src="images/content-rooms-1.jpg" alt="mg"/>
-                <div data-u="thumb">
-                    <img data-u="thumb" src="images/content-rooms-1.jpg" alt="mg" />
-                </div>
-            </div>
-            <!--/IMG-->
-            <!--/IMG-->
-            <div data-p="200.00">
-                <img data-u="image" src="images/content-rooms-3.jpg" alt="mg" />
-                <div data-u="thumb">
-                    <img data-u="thumb" src="images/content-rooms-3.jpg" alt="mg"/>
-                </div>
-            </div>
-            <!--/IMG-->
-            <!--/IMG-->
-            <div data-p="170.00">
-                <img data-u="image" src="images/content-rooms.jpg" alt="mg"/>
-                <div data-u="thumb">
-                    <img data-u="thumb" src="images/content-rooms.jpg" alt="mg"/>
-                </div>
-            </div>
-            <!--/IMG-->
-            <!--/IMG-->
-            <div data-p="170.00">
-                <img data-u="image" src="images/5.jpg" alt="mg"/>
-                <div data-u="thumb">
-                    <img data-u="thumb" src="images/5.jpg" alt="mg"/>
-                </div>
-            </div>
-            <!--/IMG-->
-            <!--/IMG-->
-            <div data-p="170.00">
-                <img data-u="image" src="images/6.jpg" alt="mg"/>
-                <div data-u="thumb">
-                    <img data-u="thumb" src="images/6.jpg" alt="mg"/>
-                </div>
-            </div>
-            <!--/IMG-->
-            <!--/IMG-->
-            <div data-p="170.00">
-                <img data-u="image" src="images/1.jpg"  alt="mg" />
-                <div data-u="thumb">
-                    <img data-u="thumb" src="images/1.jpg" alt="mg"/>
-                </div>
-            </div>
-            <!--/IMG-->
-            <!--/IMG-->
-            <div data-p="170.00">
-                <img data-u="image" src="images/2.jpg" alt="mg"/>
-                <div data-u="thumb">
-                    <img data-u="thumb" src="images/2.jpg" alt="mg"/>
-                </div>
-            </div>
-            <!--/IMG-->
-            <!--/IMG-->
-            <div data-p="170.00">
-                <img data-u="image" src="images/3.jpg" alt="mg"/>
-                <div data-u="thumb">
-                    <img data-u="thumb" src="images/3.jpg" alt="mg"/>
-                </div>
-            </div>
-            <!--/IMG-->
-            <!--/IMG-->
-            <div data-p="170.00">
-                <img data-u="image" src="images/4.jpg" alt="mg"/>
-                <div data-u="thumb">
-                    <img data-u="thumb" src="images/4.jpg" alt="mg"/>
-                </div>
-            </div>
-            <!--/IMG-->
-            <!--/IMG-->
-            <div data-p="170.00">
-                <img data-u="image" src="images/5.jpg" alt="mg"/>
-                <div data-u="thumb">
-                    <img data-u="thumb" src="images/5.jpg" alt="mg"/>
-                </div>
-            </div>
-            <!--/IMG-->
-        </div>
-        <!--/SLIDES-->
-        <!-- Thumbnail Navigator -->
-        <div data-u="thumbnavigator" class="jssort111" style="position:absolute;left:0px;bottom:0px;width:1170px;height:100px;cursor:default;" >
-            <!--SLIDES-->
-            <div data-u="slides">
-                <div data-u="prototype" class="p">
-                    <div data-u="thumbnailtemplate" class="t"></div>
-                </div>
-            </div>
-            <!--/SLIDES-->
-        </div>
-        <!-- Arrow Navigator -->
-        <!--ARROWLEFT-->
-        <div data-u="arrowleft" class="jssora051" style="width:55px;height:55px;top:162px;left:25px;" >
-            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-            <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
-            </svg>
-        </div>
-        <!--/ARROWLEFT-->
-        <!--/ARROWRIGHT-->
-        <div data-u="arrowright" class="jssora051" style="width:55px;height:55px;top:162px;right:25px;" >
-            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-            <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
-            </svg>
-        </div>
-        <!--/ARROWRIGHT-->
+ <div class="container"> 
+ <div class="row">
+    <div class="swiper-container gallery-top">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" ><img src="images/1.jpg" alt="s1" style="width: 100%;height: 740px;cursor:pointer "></div>
+      <div class="swiper-slide" ><img src="images/2.jpg" alt="s1" style="width: 100%;height: 740px;cursor:pointer"></div>
+      <div class="swiper-slide" ><img src="images/3.jpg" alt="s1" style="width: 100%;height: 740px;cursor:pointer"></div>
+      <div class="swiper-slide" ><img src="images/4.jpg" alt="s1" style="width: 100%;height: 740px;cursor:pointer"></div>
+      <div class="swiper-slide" ><img src="images/5.jpg" alt="s1" style="width: 100%;height: 740px;cursor:pointer"></div>
+      <div class="swiper-slide" ><img src="images/6.jpg" alt="s1" style="width: 100%;height: 740px;cursor:pointer"></div>
+      <div class="swiper-slide" ><img src="images/7.jpg" alt="s1" style="width: 100%;height: 740px;cursor:pointer"></div>
+      <div class="swiper-slide" ><img src="images/8.jpg" alt="s1" style="width: 100%;height: 740px;cursor:pointer"></div>
     </div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next swiper-button-white"></div>
+    <div class="swiper-button-prev swiper-button-white"></div>
+  </div>
+  <div class="swiper-container gallery-thumbs">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="images/1.jpg" alt="s1" style="width: 104%;height: 154px;cursor:pointer "></div>
+      <div class="swiper-slide"><img src="images/2.jpg" alt="s1" style="width: 104%;height: 154px;cursor:pointer "></div>
+      <div class="swiper-slide" ><img src="images/3.jpg" alt="s1" style="width: 104%;height: 154px;cursor:pointer "></div>
+      <div class="swiper-slide" ><img src="images/4.jpg" alt="s1" style="width: 104%;height: 154px;cursor:pointer "></div>
+      <div class="swiper-slide" ><img src="images/5.jpg" alt="s1" style="width: 104%;height: 154px;cursor:pointer "></div>
+      <div class="swiper-slide" ><img src="images/6.jpg" alt="s1" style="width:104%;height: 154px;cursor:pointer "></div>
+      <div class="swiper-slide" ><img src="images/7.jpg" alt="s1" style="width: 104%;height: 154px;cursor:pointer "></div>
+      <div class="swiper-slide" ><img src="images/8.jpg" alt="s1" style="width: 104%;height: 154px;cursor:pointer "></div>
+    </div>
+  </div>
+ </div>
 </div>
+  <!-- Swiper -->
+</div>
+  <!-- Swiper JS -->
+  <script src="../package/js/swiper.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var galleryThumbs = new Swiper('.gallery-thumbs', {
+      spaceBetween: 10,
+      slidesPerView: 4,
+      freeMode: true,
+      watchSlidesVisibility: true,
+      watchSlidesProgress: true,
+    });
+    var galleryTop = new Swiper('.gallery-top', {
+      spaceBetween: 10,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      thumbs: {
+        swiper: galleryThumbs
+      }
+    });
+  </script>

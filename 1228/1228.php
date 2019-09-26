@@ -12,11 +12,8 @@ $url_path = str_replace('\\', '/', $url_path);
         require_once($dir_block.'/libs/lessc.inc.php');
     }
     $less = new lessc;
-    $less->compileFile('less/1228.less', 'css/1228.css');
-    
+    $less->compileFile('less/1228.less', 'css/1228.css');  
 ?>
-    
-
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
@@ -25,8 +22,12 @@ $url_path = str_replace('\\', '/', $url_path);
     <link href="css/1228.css" rel="stylesheet" type="text/css" />
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/1228.js"></script>  
+    <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet">  
+    <script src="<?php echo $url_path ?>/js/swiper.js"></script>
+    <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet">  
+    <link href="<?php echo $url_path ?>/css/swiper.css" rel="stylesheet">  
+    <script type="text/javascript" src="swiper/js/swiper.js"></script>
 </head>
-
 <body>
-    <?php include '1228-content.php'; ?>
+    <?php include $dir_block.'/1228-content.php'; ?>  
 </body>

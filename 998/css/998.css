@@ -16,6 +16,9 @@
 .type-998 #rb_email_widget-3 {
   margin-left: -15px;
 }
+.type-998 .logo img:hover {
+  box-shadow: 0 0 30px #ccc;
+}
 .type-998 .input-group {
   margin-right: -15px;
 }
