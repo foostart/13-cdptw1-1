@@ -12,14 +12,14 @@ $url_path = str_replace('\\', '/', $url_path);
  <div class="row">
     <div class="swiper-container gallery-top">
     <div class="swiper-wrapper">
-      <div class="swiper-slide" ><img src="images/1.jpg" alt="s1" style="width: 100%;height: 740px;cursor:pointer "></div>
-      <div class="swiper-slide" ><img src="images/2.jpg" alt="s1" style="width: 100%;height: 740px;cursor:pointer"></div>
-      <div class="swiper-slide" ><img src="images/3.jpg" alt="s1" style="width: 100%;height: 740px;cursor:pointer"></div>
-      <div class="swiper-slide" ><img src="images/4.jpg" alt="s1" style="width: 100%;height: 740px;cursor:pointer"></div>
-      <div class="swiper-slide" ><img src="images/5.jpg" alt="s1" style="width: 100%;height: 740px;cursor:pointer"></div>
-      <div class="swiper-slide" ><img src="images/6.jpg" alt="s1" style="width: 100%;height: 740px;cursor:pointer"></div>
-      <div class="swiper-slide" ><img src="images/7.jpg" alt="s1" style="width: 100%;height: 740px;cursor:pointer"></div>
-      <div class="swiper-slide" ><img src="images/8.jpg" alt="s1" style="width: 100%;height: 740px;cursor:pointer"></div>
+      <div class="swiper-slide" ><img src="images/1228_1.jpg" alt="s1" style="width: 100%;height: 740px;cursor:pointer "></div>
+      <div class="swiper-slide" ><img src="images/1228_2.jpg" alt="s1" style="width: 100%;height: 740px;cursor:pointer"></div>
+      <div class="swiper-slide" ><img src="images/1228_3.jpg" alt="s1" style="width: 100%;height: 740px;cursor:pointer"></div>
+      <div class="swiper-slide" ><img src="images/1228_4.jpg" alt="s1" style="width: 100%;height: 740px;cursor:pointer"></div>
+      <div class="swiper-slide" ><img src="images/1228_5.jpg" alt="s1" style="width: 100%;height: 740px;cursor:pointer"></div>
+      <div class="swiper-slide" ><img src="images/1228_6.jpg" alt="s1" style="width: 100%;height: 740px;cursor:pointer"></div>
+      <div class="swiper-slide" ><img src="images/1228_7.jpg" alt="s1" style="width: 100%;height: 740px;cursor:pointer"></div>
+      <div class="swiper-slide" ><img src="images/1228_8.jpg" alt="s1" style="width: 100%;height: 740px;cursor:pointer"></div>
     </div>
     <!-- Add Arrows -->
     <div class="swiper-button-next swiper-button-white"></div>
@@ -27,14 +27,14 @@ $url_path = str_replace('\\', '/', $url_path);
   </div>
   <div class="swiper-container gallery-thumbs">
     <div class="swiper-wrapper">
-      <div class="swiper-slide"><img src="images/1.jpg" alt="s1" style="width: 104%;height: 154px;cursor:pointer "></div>
-      <div class="swiper-slide"><img src="images/2.jpg" alt="s1" style="width: 104%;height: 154px;cursor:pointer "></div>
-      <div class="swiper-slide" ><img src="images/3.jpg" alt="s1" style="width: 104%;height: 154px;cursor:pointer "></div>
-      <div class="swiper-slide" ><img src="images/4.jpg" alt="s1" style="width: 104%;height: 154px;cursor:pointer "></div>
-      <div class="swiper-slide" ><img src="images/5.jpg" alt="s1" style="width: 104%;height: 154px;cursor:pointer "></div>
-      <div class="swiper-slide" ><img src="images/6.jpg" alt="s1" style="width:104%;height: 154px;cursor:pointer "></div>
-      <div class="swiper-slide" ><img src="images/7.jpg" alt="s1" style="width: 104%;height: 154px;cursor:pointer "></div>
-      <div class="swiper-slide" ><img src="images/8.jpg" alt="s1" style="width: 104%;height: 154px;cursor:pointer "></div>
+      <div class="swiper-slide"><img src="images/1228_1.jpg" alt="s1" style="width: 104%;height: 154px;cursor:pointer "></div>
+      <div class="swiper-slide"><img src="images/1228_2.jpg" alt="s1" style="width: 104%;height: 154px;cursor:pointer "></div>
+      <div class="swiper-slide" ><img src="images/1228_3.jpg" alt="s1" style="width: 104%;height: 154px;cursor:pointer "></div>
+      <div class="swiper-slide" ><img src="images/1228_4.jpg" alt="s1" style="width: 104%;height: 154px;cursor:pointer "></div>
+      <div class="swiper-slide" ><img src="images/1228_5.jpg" alt="s1" style="width: 104%;height: 154px;cursor:pointer "></div>
+      <div class="swiper-slide" ><img src="images/1228_6.jpg" alt="s1" style="width:104%;height: 154px;cursor:pointer "></div>
+      <div class="swiper-slide" ><img src="images/1228_7.jpg" alt="s1" style="width: 104%;height: 154px;cursor:pointer "></div>
+      <div class="swiper-slide" ><img src="images/1228_8.jpg" alt="s1" style="width: 104%;height: 154px;cursor:pointer "></div>
     </div>
   </div>
  </div>

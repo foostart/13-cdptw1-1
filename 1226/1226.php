@@ -24,7 +24,8 @@ $url_path = str_replace('\\', '/', $url_path);
         <meta name="viewport" content="width=device-width, initial-scale=1">       
         <link href="css/1226.css" rel="stylesheet" type="text/css"/> 
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+          <link href="<?php echo $url_path ?>/css/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet">  
         <title>1226</title>
     </head>
 

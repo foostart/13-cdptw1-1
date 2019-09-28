@@ -22,7 +22,7 @@ $url_path = str_replace('\\', '/', $url_path);
         <title>ProInfo</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+          <link href="<?php echo $url_path ?>/css/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet">  
         <link href="css/font-awesome.min.css" rel="stylesheet">
         <link href="css/1229.css" rel="stylesheet" type="text/css" />
     </head>

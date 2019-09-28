@@ -9,7 +9,7 @@
 <div class="type-1227">
     <!--HEADER-->
     <div class="header">
-        <img class="image-s" src="images/bg-header-6.jpg" alt="banner">
+        <img class="image-s" src="images/1227_bg-header-6.jpg" alt="banner">
         <div class="text-center-image">
             <div class="text-1">
                 <span>SERVICE</span>

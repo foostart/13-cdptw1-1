@@ -22,7 +22,7 @@ $url_path = str_replace('\\', '/', $url_path);
     <link href="css/1228.css" rel="stylesheet" type="text/css" />
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/1228.js"></script>  
-    <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet">  
+    <link href="<?php echo $url_path ?>/css/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet">  
     <script src="<?php echo $url_path ?>/js/swiper.js"></script>
     <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet">  
     <link href="<?php echo $url_path ?>/css/swiper.css" rel="stylesheet">  

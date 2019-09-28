@@ -22,12 +22,11 @@ $less->compileFile('less/998.less', 'css/998.css');
         
         <title>998</title>
         <link rel="stylesheet" type="text/css" href="css/998.css">
-        <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet">  
         <link href="./css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="./css/998.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="./css/owl.carousel.min.css">
         <link rel="stylesheet" href="./css/owl.theme.default.min.css">
-    
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
         <script src="./js/jquery.min.js"></script>
