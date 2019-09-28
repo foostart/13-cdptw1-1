@@ -1,5 +1,70 @@
 .type-1226
 {
+    .social_icons {
+                width: 100%;
+                margin: 15px 0;
+                a:hover {
+                    text-decoration: none;
+                }
+                .icon {
+                    margin-right: 10px;
+                    border-radius: 20px;
+                    color: #555;
+                    
+                    overflow: hidden;
+                    i:first-child {
+                        color: @color_main;
+                        position: relative;
+                        left: 8px;
+                        top: 0;
+                        opacity: 1;
+                        transition: all 0.3s ease;
+                    }
+                    i:last-child {
+                        color: #fff;
+                        position: relative;
+                        left: -6px;
+                        top: 15px;
+                        opacity: 0;
+                        transition: all 0.3s ease;
+                    }
+                }
+                .icon:hover {
+                    i:first-child {
+                        top: -15px;
+                        opacity: 0;
+                    }
+                    i:last-child {
+                        top: 0px;
+                        opacity: 1;
+                    }
+                }
+                .icon_facebook {
+                    i:first-child {
+                        left: 10px;
+                    }
+                    i:last-child {
+                        left: -4px;
+                    }
+                }
+                .icon_mail {
+                    i:first-child {
+                        left: 7px;
+                    }
+                    i:last-child {
+                        left: -7px;
+                    }
+                }
+                .icon_facebook:hover {
+                    background-color: #3B5998;
+                }
+                .icon_gplus:hover {
+                    background-color: #DD4B39;
+                }
+                .icon_mail:hover {
+                    background-color: #6567A5;
+                }
+            }
     .line{
         padding-left: 0px;
         padding-right: 0px;

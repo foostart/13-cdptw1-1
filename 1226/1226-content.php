@@ -28,11 +28,14 @@ $url_path = str_replace('\\', '/', $url_path);
                         <h4><i class="fa fa-map-marker" aria-hidden="true">&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;43 đường số 6, Đinh Bộ Lĩnh, P.26, Q.Bình Thạnh, Tp.HCM</i></h4>
                         <h4><i class="fa fa-mobile" aria-hidden="true">&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;0982.956.427 </i></h4>
                         <h4><i class="fa fa-envelope-o" aria-hidden="true">&nbsp;&nbsp; &nbsp;&nbsp;Thaikienkts@gmail.com</i></h4>
-                        <div class="contact-page">
-                            <a href="#" class="bnfb"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="#" class="bnytb"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-                            <a href="#" class="bnins"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        </div>
+                        <div class="social_icons">
+                    <a class="icon icon_facebook" href="#">
+                        <i class="fa fa-facebook-f"></i>
+                        <i class="fa fa-facebook-f"></i>
+                    </a>
+                    <a class="icon icon_gplus" href="#"><i class="fa fa-google"></i><i class="fa fa-google"></i></a>
+                    <a class="icon icon_mail" href="#"><i class="fa fa-envelope"></i><i class="fa fa-envelope"></i></a>
+                </div>
                     </div>
                     <!--/INFO-->
                 </div>

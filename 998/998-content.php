@@ -81,42 +81,11 @@ $url_path = str_replace('\\', '/', $url_path);
                                     
                                 </ul>
                             </li>
-                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio</a>
-                                <ul class="dropdown-menu">
-                                    <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle1" data-toggle="dropdown">Regular</a>
-                                        <ul class="dropdown-menu">
-                                            
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle1" data-toggle="dropdown">AJAX</a>
-                                        <ul class="dropdown-menu">
-                                            
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle1" data-toggle="dropdown">Paginated</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
-                                <ul class="dropdown-menu">
-                                    
-                                </ul>
-                            </li>
-                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
-                                <ul class="dropdown-menu">
-                                   
-                                </ul>
-                            </li>
-                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Features</a>
-                                <ul class="dropdown-menu">
-                                   
-                                </ul>
-                            </li>
-                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact</a>
-                                <ul class="dropdown-menu">
-                                    
-                                </ul>
-                            </li>
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio</a></li>
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog</a></li>
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a> </li>
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Features</a></li>
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div>
