@@ -11,9 +11,10 @@
 .type-1229 .portfolio .description .case_info_detail dd {
   color: #555;
 }
-.type-1229 .portfolio .title-style {
+.type-1229 .portfolio .col-md-2 {
   font-weight: 600;
   color: #555;
+  padding-bottom: 15px;
 }
 .type-1229 .portfolio .meta .btn_meta {
   margin: 5px 5px;

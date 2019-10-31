@@ -18,7 +18,7 @@
                       <hr class="divider light my-4">
                     </div>
                     <div class="subtitle" data-swiper-parallax="-200">
-                      <p class="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
+                      <p class="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up and running in no </p>
                     </div>
                   </div>
                   <div class="swiper-slide">

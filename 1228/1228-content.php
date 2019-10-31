@@ -47,7 +47,7 @@ $url_path = str_replace('\\', '/', $url_path);
   <script>
     var galleryThumbs = new Swiper('.gallery-thumbs', {
       spaceBetween: 10,
-      slidesPerView: 4,
+      slidesPerView: 5,
       freeMode: true,
       watchSlidesVisibility: true,
       watchSlidesProgress: true,

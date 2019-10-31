@@ -30,4 +30,5 @@ $url_path = str_replace('\\', '/', $url_path);
 </head>
 <body>
     <?php include $dir_block.'/1228-content.php'; ?>  
+    
 </body>

@@ -10,43 +10,43 @@ $url_path = str_replace('\\', '/', $url_path);
     <!--CONTAINER-->
     <div class="container line">
         <!--ROW-->
-        <div class="row portfolio">
+        <div class="row portfolio" style="padding-bottom: 30px">
             <!--DESCRIPTION-->
             <div class="col-md-8 description">
                 <!--CASE-->
            
                     <!--ROW-->
                     <div class="row">
-                        <p class="col1 col-md-2 col-sm-2 title-style">空間性質</p>
-                        <p class="col2 col-md-10 col-sm-10 ">往宅空間</p>
+                        <div class="col-md-2">空間性質</div>
+                        <div class="col-md-10">往宅空間</div>
                     </div>
                     <!--/ROW-->
                     <hr>
                     <!--ROW-->
                     <div class="row">
-                        <p class="col1 col-md-2 col-sm-2 title-style">座落位置</p>
-                        <p class="col2 col-md-10 col-sm-10">新北市樹林區</p>
+                        <div class="col-md-2 ">座落位置</div>
+                        <div class="col-md-10 ">新北市樹林區</div>
                     </div>
                     <!--/ROW-->
                     <hr>
                     <!--ROW-->
                     <div class="row">
-                        <p class="col1 col-md-2 col-sm-2 title-style">建物面積</p>
-                        <p class="col2 col-md-10 col-sm-10">36坪</p>
+                        <div class="col-md-2">建物面積</div>
+                        <div class="col-md-10 ">36坪</div>
                     </div>
                     <!--/ROW-->
                     <hr>
                     <!--ROW-->
                     <div class="row">
-                        <p class="col1 col-md-2 col-sm-2 title-style">室內格局</p>
-                        <p class="col2 col-md-10 col-sm-10">客廳、 餐廳、 書房、 主臥室、 客房</p>
+                        <div class="col-md-2">室內格局</div>
+                        <div class="col-md-10">客廳、 餐廳、 書房、 主臥室、 客房</div>
                     </div>
                     <!--/ROW-->
                     <hr>
                     <!--ROW-->
                     <div class="row">
-                        <p class="col1 col-md-2 col-sm-2 title-style">主要材料</p>
-                        <p class="col2 col-md-10 col-sm-10">每木皮、 美耐板  美耐板、 烤漆玻璃、 噴砂玻璃、 霧面石英磚</p>
+                        <div class="col-md-2">主要材料</div>
+                        <div class="col-md-10 ">每木皮、 美耐板  美耐板、 烤漆玻璃、 噴砂玻璃、 霧面石英磚</div>
                     </div>
                     <!--/ROW-->
               
@@ -72,17 +72,19 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
         <!--/ROW-->
         <div class="row post_navigation">
-            <!--COL-POST-->
+        
             <div class="col-md-6 col_post">
-                <!--POST-LEFT-->
+               
                 <div class="post left_post">
                     <a class="arrow_left" href="#"><i class="fa fa-arrow-left"></i></a>
                     <div class="content_post">
-                        <a class="post_title" href="#"><h5>精雕細琢 、 堂而皇之</h5></a>
+                        <a class="post_title" href="#">
+                            <h5>精雕細琢 、 堂而皇之</h5>
+                        </a>
                         <span><a href="#">台中市</a> , <a href="#">中區</a> , <a href="#">70坪</a> , <a href="#">大坪飲</a> , <a href="#">淺色系    </a></span>
                     </div>
                 </div>
-                <!--/POST-LEFT-->
+               
             </div>
             <!--/COL-POST-->
             <!--COL-POST-->

@@ -10,8 +10,8 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="container">
         <div class="row header-top-line">
             <div class="col-md-12">
-              
-                <div class="pull-left">
+                <div class="col-md-6">
+                    <div class="pull-left">
                     <div id="rb_email_widget-3" class="widget ">
                         <a  href="#">
                             <i class="fa fa-envelope"></i>demo@gmail.com</a>
@@ -22,7 +22,9 @@ $url_path = str_replace('\\', '/', $url_path);
                         </a>
                     </div>
                 </div>
-                <div class="pull-right">
+                </div>
+                <div class="col-md-6">
+                    <div class="pull-right">
                     <div id="text-3" class="widget hidden-xs">      
                         <div class="clearfix">
                             <div class="rbSocial clearfix icons">
@@ -46,11 +48,14 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </form>
                 </div>
+                </div>
+
+                
             </div>
         </div>                  
     </div> 
     <div class="container">
-        <div class="row line-header-tottom1">
+        <div class="row line-tottom1">
             <div class="col-xs-12 hidden-xs col-sm-12 col-md-2">
                 <div class="logo">
                     <a href="">

@@ -15,7 +15,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <!--MAP-->
                 <div class="col-md-8 col-xs-12 dis-contact">
                     <div class="maps">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.4647139694903!2d106.75635931428761!3d10.852215460758954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752797e321f8e9%3A0xb3ff69197b10ec4f!2zVHLGsOG7nW5nIENhbyDEkOG6s25nIEPDtG5nIG5naOG7hyBUaOG7pyDEkOG7qWM!5e0!3m2!1svi!2s!4v1572514582696!5m2!1svi!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.4647139694903!2d106.75635931428761!3d10.852215460758954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752797e321f8e9%3A0xb3ff69197b10ec4f!2zVHLGsOG7nW5nIENhbyDEkOG6s25nIEPDtG5nIG5naOG7hyBUaOG7pyDEkOG7qWM!5e0!3m2!1svi!2s!4v1572514582696!5m2!1svi!2s" width="750" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                     </div>
                 </div>
                 <!--/MAP-->

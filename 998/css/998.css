@@ -228,8 +228,11 @@
     border-bottom: 3px solid #e9e9e9;
     margin-top: 5px;
   }
-  .type-998 .header-top-line {
-    display: none;
+  .type-998 .header-top-line .pull-left {
+    float: left;
+  }
+  .type-998 .header-top-line .pull-right {
+    float: right;
   }
   .type-998 #menu-main-menu {
     float: left;
@@ -242,7 +245,6 @@
     padding-left: 40%;
   }
   .type-998 #searchform {
-    width: 85%;
     padding-top: 0px;
   }
   .type-998 #s {
