@@ -26,7 +26,13 @@ $url_path = str_replace('\\', '/', $url_path);
       
         <link href="<?php echo $url_path ?>/css/1227.css" rel="stylesheet" type="text/css" /> 
        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">     
-          <link href="<?php echo $url_path ?>/css/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet">    
+        <link href="<?php echo $url_path ?>/css/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet">    
+        <script src="<?php echo $url_path ?>/js/swiper.js"></script>
+        <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet">  
+        <link href="<?php echo $url_path ?>/css/swiper.css" rel="stylesheet">  
+        <script src="js/swiper.js"></script>
+        <script src="js/jquery-2.1.4.min.js"></script>
+      
         <title>Module 1227</title>
     </head>
 
@@ -34,6 +40,21 @@ $url_path = str_replace('\\', '/', $url_path);
         <?php
             include '1227-content.php';
         ?>
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+              speed: 600,
+              parallax: true,
+              loop:true,
+              pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+              },
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+              },
+            });
+          </script>
        
      
     </body>

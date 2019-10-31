@@ -8,14 +8,32 @@
 ?>
 <div class="type-1227">
     <!--HEADER-->
-    <div class="header">
-        <img class="image-s" src="images/1227_bg-header-6.jpg" alt="banner">
-        <div class="text-center-image">
-            <div class="text-1">
-                <span>SERVICE</span>
-            </div>
-            <hr class="hr-size-color">
-            <div class="text-2">客户服务</div>
+     <div class=" text-center">
+     <div class="swiper-container">
+          <div class="parallax-bg" style="background-image:url(./images/1227_bg-header-6.jpg)" data-swiper-parallax="-23%"></div>
+              <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="title" data-swiper-parallax="-300">
+                      <h2 class="text-white">SERVICE</h2>
+                      <hr class="divider light my-4">
+                    </div>
+                    <div class="subtitle" data-swiper-parallax="-200">
+                      <p class="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="title" data-swiper-parallax="-300">
+                      <h2 class="text-white">We've got what you need!</h2>
+                      <hr class="divider light my-4">
+                    </div>
+                    <div class="subtitle" data-swiper-parallax="-200">
+                      <p class="text-white-50 mb-4">Choose the skill you want to practise today and improve your English at your own speed, whenever it's convenient for you</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="swiper-pagination swiper-pagination-white"></div>
+              <div class="swiper-button-prev swiper-button-white"></div>
+              <div class="swiper-button-next swiper-button-white"></div>
         </div>
     </div>
     <!--/HEADER-->
